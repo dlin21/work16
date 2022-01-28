@@ -32,7 +32,7 @@ int main(){
     int i = rand() % 4 + 2; // gets a number from 2 to 5
     sleep(i);
     printf("child slept for %d seconds\n", i);
-    return i
+    return i;
   }
 
   return 0;
