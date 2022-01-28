@@ -7,7 +7,7 @@
 #include <errno.h>
 
 int main(){
-  printf("parent forking...");
+  printf("parent forking...\n");
   srand(time(NULL));
   
   int f1 = fork();
